@@ -4,7 +4,10 @@
     font-style: normal;
 
 }
-
+*{
+    margin: 0;
+    /* padding: 0; */
+}
 /* shared styles */
 
 .title-color {
@@ -19,6 +22,7 @@
     font-weight: 600;
     padding: 17px 34px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .marginlr {
@@ -29,6 +33,9 @@
 .marginu {
     margin-top: 80px;
 }
+.margind{
+    margin-bottom: 80px;
+}
 
 .bg-color {
     background-color: #F5F5F5;
@@ -36,6 +43,9 @@
 
 .color-1 {
     background-color: #C6E4D6;
+}
+.mfc {
+    margin-bottom: 24px;
 }
 
 /* nav styles */
@@ -55,6 +65,7 @@
     background-color: white;
     margin-top: 24px;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 
 .nav-title {
@@ -120,11 +131,6 @@
     position: relative;
 
 }
-
-.mfc {
-    margin-bottom: 24px;
-}
-
 .card-content {
     padding: 32px;
     width: 410px;
@@ -132,14 +138,6 @@
     border-radius: 16px;
     position: relative;
 }
-
-.card-title {
-    margin-bottom: 12px;
-    margin-top: 0;
-    font-weight: bold;
-    font-size: 20px;
-}
-
 .cb {
     padding: 11px 20px;
     color: white;
@@ -148,6 +146,14 @@
     position: absolute;
     left: 32px;
     bottom: 40px;
+    cursor: pointer;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* yousuf Sorkar */
@@ -173,10 +179,100 @@
     font-size: 20px;
     margin: 0 0 4px 0;
 }
-
 .ydes {
     margin: 0;
     color: rgba(14, 14, 14, 60%);
 }
 
-.quotepic {}
+/* table section */
+.opinion{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border:1px solid rgba(0, 0, 0, 0.5); 
+    padding: 24px;
+}
+.table-container{
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 32px;
+}
+.head-row{
+    font-weight: 600;
+    font-size: 20px;
+}
+.col1{
+    width: 1017px;
+    height: 92px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.col2{
+    height: 92px;
+    width: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px  /*flexbox use krle collapse margin a jhamela hoy,gap diye o thik hoy nh  */
+}
+.col21{
+    width: 152px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 0 14px 0 14px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/* News Section */
+.news-subtitle{
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.news-card1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    background-color: #ffffff;
+    height: 330px;
+    padding: 48px;
+    border-radius: 24px;
+}
+.news-card2{
+    display: flex;
+    gap: 32px;
+    background-color: #ffffff;
+    height: 330px;
+    padding: 48px;
+    border-radius: 24px;
+}
+.mfnc{
+    margin-top: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    padding-top: 32px;
+}
+.btn-news{
+    padding: 13px 26px;
+    border-radius: 8px;
+}
+.satelite{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
