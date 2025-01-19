@@ -105,10 +105,12 @@
     font-weight: normal;
     font-size: 16px;
 }
-.cdes{
+
+.cdes {
     font-weight: normal;
     font-size: 18px;
 }
+
 .card {
     margin-top: 32px;
     margin-bottom: 32px;
@@ -147,3 +149,34 @@
     left: 32px;
     bottom: 40px;
 }
+
+/* yousuf Sorkar */
+.quote {
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+.yousuf {
+    padding: 40px 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 0 0 12px 0;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat; 
+    background-size: 64px 64px;
+    background-position-x: 2%;
+    background-position-y: 10%;
+}
+.yt {
+    font-weight: 600;
+    color: rgba(14, 14, 14, 80%);
+    font-size: 20px;
+    margin: 0 0 4px 0;
+}
+
+.ydes {
+    margin: 0;
+    color: rgba(14, 14, 14, 60%);
+}
+
+.quotepic {}
