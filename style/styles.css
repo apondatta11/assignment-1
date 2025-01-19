@@ -1,0 +1,149 @@
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+/* shared styles */
+
+.title-color {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.btn-primary {
+    background-color: #006A50;
+    color: white;
+    font-weight: 600;
+    padding: 17px 34px;
+    font-size: 18px;
+}
+
+.marginlr {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.marginu {
+    margin-top: 80px;
+}
+
+.bg-color {
+    background-color: #F5F5F5;
+}
+
+.color-1 {
+    background-color: #C6E4D6;
+}
+
+/* nav styles */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-sign {
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+    background-color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.nav-title {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    font-size: 32px;
+}
+
+/* banner styles */
+.banner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 560px;
+    border-radius: 24px;
+    margin-top: 18px;
+}
+
+.banner-text {
+    margin: 117px 64px 117px 60px;
+    width: 622px;
+    height: 326px;
+
+}
+
+.banner-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.img-1 {
+    height: 400px;
+    width: 474px;
+    margin: 80px 55px 80px 0;
+}
+
+/* Card details */
+.des {
+    font-weight: normal;
+    font-size: 16px;
+}
+.cdes{
+    font-weight: normal;
+    font-size: 18px;
+}
+.card {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+
+}
+
+.mfc {
+    margin-bottom: 24px;
+}
+
+.card-content {
+    padding: 32px;
+    width: 410px;
+    height: 325px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cb {
+    padding: 11px 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    position: absolute;
+    left: 32px;
+    bottom: 40px;
+}
