@@ -24,6 +24,9 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: crimson;
+}
 
 .marginlr {
     margin-left: 160px;
@@ -66,6 +69,9 @@
     margin-top: 24px;
     margin-bottom: 24px;
     cursor: pointer;
+}
+.btn-sign:hover{
+     background-color: aquamarine;
 }
 
 .nav-title {
@@ -148,7 +154,15 @@
     bottom: 40px;
     cursor: pointer;
 }
-
+/* .cb1:hover{
+    background-color: #09A15C;
+}
+.cb2:hover{
+    background-color: #FFC239;
+}
+.cb3:hover{
+    background-color: #5490F5;
+} */
 .card-title {
     margin-bottom: 12px;
     margin-top: 0;
@@ -177,7 +191,7 @@
     font-weight: 600;
     color: rgba(14, 14, 14, 80%);
     font-size: 20px;
-    margin: 0 0 4px 0;
+    margin: 12px 0 4px 0;
 }
 .ydes {
     margin: 0;
@@ -294,6 +308,10 @@ td, th{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor:cell;
+}
+.tk:hover{
+    background-color: #C6E4D6;
 }
 .under{
     display: flex;
