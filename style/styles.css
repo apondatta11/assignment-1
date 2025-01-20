@@ -6,7 +6,6 @@
 }
 *{
     margin: 0;
-    /* padding: 0; */
 }
 /* shared styles */
 
@@ -22,6 +21,7 @@
     font-weight: 600;
     padding: 17px 34px;
     font-size: 18px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -276,3 +276,43 @@ td, th{
     width: 408px;
     height: 306px;
 }
+/* Donate Section */
+.margintopthreetwo{
+    margin-top: 32px;
+}
+.cardd{
+    display: flex;
+    gap: 24px;
+}
+.tk{
+    width: 240px;
+    height: 128px;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.under{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textbox{
+    width: 1032px;
+    height: 50px;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Newsletter section */
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
