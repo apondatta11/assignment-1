@@ -315,4 +315,21 @@ td, th{
     flex-direction: row;
     gap: 0;
 }
+/* footer */
+.footer{
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.last-image{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+#line{
+    width: 1122px;
+    margin-right: 239px;
+    margin-left: 239px;
+}
 
